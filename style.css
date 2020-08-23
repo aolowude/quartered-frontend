@@ -39,8 +39,30 @@ a:hover, a:active {
 # Site Header
 --------------------------------------------------------------*/
 /*
+# Hero Bar
+--------------------------------*/
+.search-bar-home {
+    height: 3em;
+    width: 21em;
+    border-width: 0.01rem;
+    border-radius: 0.3rem;
+    border-color: #003282;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: #003282;
+}
+
+/*
+
 # Header Bar
 --------------------------------*/
+
+.header-image-right {
+    width: 50%!important;
+    float: right;
+    margin: 2% 0;
+}
+
 .top-header-bar {
     background: #ff4800;
     color: #fff;
@@ -247,6 +269,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .hero-slider {
     max-height: 820px;
+    margin: 3rem 0;
 }
 
 .hero-content-wrap {
@@ -257,7 +280,7 @@ a:hover, a:active {
 .hero-content-overlay {
     top: 0;
     left: 0;
-    background: rgba(0,0,0,.5);
+    /*background: rgba(0,0,0,.5);*/
 }
 
 .hero-content-wrap img {
@@ -277,8 +300,11 @@ a:hover, a:active {
 
 .hero-content-overlay h4 {
     margin: 0;
-    font-size: 46px;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #003282;
+    border-bottom-width: 1px;
+    border-bottom-color: #0097DD;
 }
 
 .hero-content-overlay p {
