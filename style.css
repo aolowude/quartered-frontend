@@ -41,16 +41,20 @@ a:hover, a:active {
 /*
 # Hero Bar
 --------------------------------*/
+
 .search-bar-home {
     height: 2.8rem;
     width: 22rem;
-    border-width: 0.01rem;
+    border: 0.1rem solid #0097DD;
     border-radius: 2.5px;
-    border-color: #003282;
     margin: 0.5rem 0.5rem 0.5rem 0;
     padding: 0.8rem;
     color: #003282;
     font-size: 0.8rem;
+}
+
+.search-bar-home::placeholder {
+    color: #003282;
 }
 
 /*
@@ -304,8 +308,7 @@ a:hover, a:active {
     font-size: 1.8rem;
     font-weight: 500;
     color: #003282;
-    border-bottom-width: 1px;
-    border-bottom-color: #0097DD;
+    border-bottom: 1px solid #0097DD;
 }
 
 .hero-content-overlay p {
@@ -315,6 +318,7 @@ a:hover, a:active {
 
 .hero-content-overlay .entry-footer a.btn {
     color: #fff;
+    font-weight: 200;
 }
 
 .hero-slider .pagination-wrap {
