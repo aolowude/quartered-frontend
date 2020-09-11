@@ -405,12 +405,20 @@ a:hover, a:active {
 }
 
 @media screen and (max-width: 992px){
+
+    .homeHeroSearch {
+        margin: 0 2rem;
+    }
+    .hero-content-wrap img {
+        opacity: 42%;
+    }
+
     .hero-content-overlay h1 {
         font-size: 48px;
     }
 
     .hero-content-overlay h4 {
-        font-size: 22px;
+        font-size: 2rem;
     }
 
     .hero-content-overlay p,
@@ -425,6 +433,20 @@ a:hover, a:active {
     }
 }
 
+
+@media screen and (max-width: 576px){
+    .homeHeroSearch {
+        margin: 0 1rem;
+    }
+    .hero-content-overlay h4 {
+        font-size: 1rem;
+    }
+
+    .search-bar-home {
+        height: 2.8rem;
+        width: 12rem;
+    }
+}
 /*--------------------------------------------------------------
 # Elements Page
 --------------------------------------------------------------*/
@@ -949,7 +971,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .cause-wrap {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 
 .featured-cause {
@@ -973,7 +995,7 @@ ul.tabs-nav .tab-nav.active {
 
 .featured-cause .cause-content-wrap {
     width: 100%;
-    margin-top: -6rem;
+    margin-top: -4rem;
 }
 
 .cause-content-wrap>.feat-header {
